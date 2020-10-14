@@ -1,9 +1,5 @@
 import DATA from './employees-json';
 
-export function getEmployees(){
-    return DATA.employees;
-}
-
 function findByName(name, surname) {
     let res = [];
     for (var e of DATA.employees) {
